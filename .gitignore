@@ -1,0 +1,26 @@
+# CyberRAG — ignore generated artifacts and heavy data
+.venv/
+__pycache__/
+*.pyc
+
+# generated indexes / models (regenerable from ingest scripts)
+data/chroma/
+data/bm25.pkl
+data/attack_kg.pkl
+data/manifest.json
+
+# fetched corpus (regenerable via fetch_authoritative.py; large)
+corpus/attack/
+corpus/kev/
+corpus/capec/
+corpus/sigma/
+
+# eval outputs keep the latest only by hand
+eval/results_*.json
+eval/bench_results_*.log
+
+# OS
+Thumbs.db
+.DS_Store
+eval_run.log
+test_docs/

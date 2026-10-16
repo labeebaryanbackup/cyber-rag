@@ -1,0 +1,223 @@
+[
+  {
+    "id": "ssti-rce",
+    "question": "How do I exploit Server-Side Template Injection (SSTI) in Jinja2 to achieve RCE?",
+    "keywords": [
+      "__class__",
+      "__globals__",
+      "os",
+      "popen",
+      "config",
+      "{{"
+    ],
+    "expected_docs": [
+      "exploiting-server-side-template-injection",
+      "hunt-ssti",
+      "ssti"
+    ]
+  },
+  {
+    "id": "t1059",
+    "question": "What is MITRE ATT&CK technique T1059 and how can it be detected?",
+    "keywords": [
+      "command",
+      "scripting",
+      "interpreter",
+      "T1059"
+    ],
+    "expected_docs": [
+      "T1059"
+    ]
+  },
+  {
+    "id": "log4shell",
+    "question": "What is CVE-2021-44228 and why is it dangerous?",
+    "keywords": [
+      "log4j",
+      "jndi",
+      "remote code execution",
+      "ldap"
+    ],
+    "expected_docs": [
+      "CVE-2021-44228"
+    ]
+  },
+  {
+    "id": "apt29-tech",
+    "question": "Which techniques and malware does the APT29 threat group use?",
+    "keywords": [
+      "mimikatz",
+      "apt29",
+      "svr",
+      "russia"
+    ],
+    "expected_docs": [
+      "APT29",
+      "G0016",
+      "analyzing-apt-group"
+    ]
+  },
+  {
+    "id": "sqli-union",
+    "question": "How do I perform a UNION-based SQL injection to extract data?",
+    "keywords": [
+      "union",
+      "select",
+      "columns",
+      "null",
+      "order by"
+    ],
+    "expected_docs": [
+      "exploiting-sql-injection",
+      "sqli"
+    ]
+  },
+  {
+    "id": "idor",
+    "question": "What is an IDOR vulnerability and how do I test for it?",
+    "keywords": [
+      "insecure direct object reference",
+      "authorization",
+      "id",
+      "access"
+    ],
+    "expected_docs": [
+      "exploiting-idor-vulnerabilities",
+      "idor"
+    ]
+  },
+  {
+    "id": "ssrf",
+    "question": "How can SSRF be exploited to reach cloud metadata endpoints?",
+    "keywords": [
+      "169.254.169.254",
+      "metadata",
+      "internal",
+      "ssrf"
+    ],
+    "expected_docs": [
+      "exploiting-server-side-request-forgery",
+      "ssrf"
+    ]
+  },
+  {
+    "id": "kerberoast",
+    "question": "What is Kerberoasting and which ATT&CK technique covers it?",
+    "keywords": [
+      "kerberos",
+      "service",
+      "ticket",
+      "spn",
+      "T1558"
+    ],
+    "expected_docs": [
+      "T1558",
+      "kerberoast"
+    ]
+  },
+  {
+    "id": "persistence-registry",
+    "question": "How do attackers achieve persistence via Windows registry run keys?",
+    "keywords": [
+      "registry",
+      "run keys",
+      "startup",
+      "persistence",
+      "T1547"
+    ],
+    "expected_docs": [
+      "T1547",
+      "registry-run-key"
+    ]
+  },
+  {
+    "id": "xxe",
+    "question": "How do I exploit an XXE vulnerability to read local files?",
+    "keywords": [
+      "entity",
+      "doctype",
+      "system",
+      "file://",
+      "xml"
+    ],
+    "expected_docs": [
+      "exploiting-xxe",
+      "xxe"
+    ]
+  },
+  {
+    "id": "deserialization",
+    "question": "What is insecure deserialization and how does it lead to RCE?",
+    "keywords": [
+      "deserialization",
+      "gadget",
+      "object",
+      "rce"
+    ],
+    "expected_docs": [
+      "exploiting-insecure-deserialization",
+      "deserialization"
+    ]
+  },
+  {
+    "id": "lateral-smb",
+    "question": "How do attackers move laterally using SMB and what detects it?",
+    "keywords": [
+      "smb",
+      "lateral",
+      "admin",
+      "share",
+      "T1021"
+    ],
+    "expected_docs": [
+      "T1021",
+      "smb"
+    ]
+  },
+  {
+    "id": "phishing-tactic",
+    "question": "What ATT&CK technique covers phishing and what are its sub-techniques?",
+    "keywords": [
+      "phishing",
+      "spearphishing",
+      "attachment",
+      "link",
+      "T1566"
+    ],
+    "expected_docs": [
+      "T1566",
+      "phishing"
+    ]
+  },
+  {
+    "id": "credential-dumping",
+    "question": "How is LSASS credential dumping performed and detected?",
+    "keywords": [
+      "lsass",
+      "mimikatz",
+      "memory",
+      "credential",
+      "T1003"
+    ],
+    "expected_docs": [
+      "T1003",
+      "lsass",
+      "credential"
+    ]
+  },
+  {
+    "id": "oauth-bypass",
+    "question": "What are common OAuth misconfigurations that lead to account takeover?",
+    "keywords": [
+      "redirect_uri",
+      "state",
+      "token",
+      "oauth"
+    ],
+    "expected_docs": [
+      "exploiting-oauth-misconfiguration",
+      "oauth",
+      "hunt-ato"
+    ]
+  }
+]
